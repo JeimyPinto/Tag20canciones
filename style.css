@@ -1,19 +1,58 @@
-.titulo1{
-    background-color: blue;
+.titulo1 {
+    background-color: rgb(86, 224, 36);
     color: white;
     display: flex;
     justify-content: center;
     font-family: 'Kolker Brush', cursive;
 }
-.titulo2{
+
+.titulo2 {
     font-family: 'Rubik Bubbles', cursive;
     font-size: 1rem;
+    text-align: center;
 }
-.contenedor{
+
+.contenedor {
     display: flex;
     justify-content: center;
 }
-button{
-    background-color: purple;
-    color: brown;
+
+button {
+    background-color: black;
+    color: chartreuse;
+    width: 200px;
+    height: 30px;
+}
+
+.table {
+    color: black;
+    border-collapse: collapse;
+    border: 50px;
+
+}
+
+.table td {
+    border: 1px solid;
+    text-align: center;
+}
+
+.table th:hover {
+    color: blueviolet;
+    background-color: black;
+}
+
+.table tr {
+    color: black;
+    background-color: chartreuse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+caption {
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.table td:hover {
+    color: aliceblue;
+    background-color: blueviolet;
 }
